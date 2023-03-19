@@ -1,6 +1,24 @@
 * {
     direction: rtl !important;
 } 
+
+a {
+    color: #daaf03;
+}
+
+.btn-primary {
+    background-color: #deb100;
+    border: #b59207;
+}
+
+.btn-primary:hover {
+    background-color: #b59207;
+}
+
+.btn-primary:active {
+    background-color: #daaf03 !important;
+}
+
 iframe {
     position: fixed;
     background: #000;
@@ -10,6 +28,7 @@ iframe {
     width: 100%;
     height: 100%;
 }
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
